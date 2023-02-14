@@ -28,7 +28,8 @@ const Persons = async (req, res) => {
                     // return res.status(200).json({"message:":`No person with the id ${id}`});
                     return res.status(200).json({
                         "read all data seccess": false,
-                        "message:":`Table 'person' is empty.`
+                        "message:":`Table 'person' is empty.`,
+                        "data": []
                     });
                 }
 
@@ -42,7 +43,11 @@ const Persons = async (req, res) => {
                 //         "role": doc.role
                 //     }
                 // console.log('dataAllDocs =', dataAllDocs )
-                return res.status(200).send(doc)
+                return res.status(200).json({
+                    "seccess": true,
+                    "message:":`all docs in table 'person'`,
+                    "data": doc
+                })
                 // return doc
                 //     ? res.status(200).send(doc)
                 //     : res.end(`Database don't return any data`);
