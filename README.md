@@ -1,4 +1,17 @@
-# This is Fauna db server based on Next.js
+# This is db server based on  Next.js and fauna db
+### [What is fauna](https://docs.fauna.com/fauna/current/#what-is-fauna)
+
+Fauna is a flexible, developer-friendly, transactional database delivered as a secure and scalable cloud API with native GraphQL. Fauna combines the flexibility of NoSQL systems with the relational querying and transactional capabilities of SQL databases.
+
+### [What is Next.js](https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs#:~:text=TypeScript-,What%20is%20Next.js%3F,-1)
+
+Next.js is a React framework that gives you building blocks to create web applications.
+
+By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.
+
+### What is this server
+
+This server allows you to use the fauna db to test the interaction of the application and any database with crud api
 
 ### CRUD server has the next endpoints:
 
