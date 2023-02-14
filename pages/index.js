@@ -7,7 +7,10 @@ import styles from '../styles/Home.module.css'
           <h1>Welcome to db server based on fauna db and  Next.js!</h1><br/>
           {/*<h3>Database &quot;users.db&quot; has table &quot;person&quot; that contains informaition in the following form:</h3>*/}
           {/*<Image src={tablePic}  alt="sqlite3 data example" priority="true"  />*/}
-        <h4>This server allows you to use the fauna db to test the interaction <br/>between your application and some database with the CRUD API
+        <h4>This server allows you to use the fauna db to test the interaction <br/>between your application and some database with the CRUD API.<br/>
+          Server only interacts with the "person" table in the database being used.<br/>
+          Table has fields "id", "firstname", "lastname", "role".<br/>
+          Every combination of fields is unique in table.
         </h4>
           <h2>API CRUD server has the next endpoints:</h2>
         <table className={styles.table}>
