@@ -41,4 +41,6 @@ src_trying/**/*
 
 #files
 package-lock.json
+.eslintrc.json
+yarn.lock
 
