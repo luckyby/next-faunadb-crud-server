@@ -4,12 +4,21 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0 0 4rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fcfcfc;
+  /*background-image: url("../public/fauna-blue-birds_edge-opacity.png");*/
+  background-image: url("../public/Fauna_Logo-svg_croped.svg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: 10vw;
+  background-position-x: 15%;
+  background-position-y: 5%;
+  color: #293c3e;
 }
 
 .footer {
@@ -113,6 +122,68 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.table {
+  border: 3px double #c6c6c6;
+  border-spacing:0px
+}
+
+.tdPaddingLeft {
+  padding-left: 3rem;
+}
+
+.tdFlexCenter {
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-around;
+
+}
+
+.tdGridCenter {
+  display: grid;
+}
+
+.tdBottomBorder {
+  border-bottom: 1px solid #c6c6c6  ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #eaeaea;
+}
+
+.tdEmpty {
+  border-bottom: 1px solid #c6c6c6;
+  height: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+.tdReqTextStyle {
+  /*background-color : #252572;*/
+  /*color: white;*/
+  background-color : white;
+  color: black;
+  padding: 10px
+}
+
+.colorPostMethod {
+  background-color: #ECFAF4;
+  border-bottom: 3px solid #49CC90;
+}
+
+.colorGetMethod {
+  background-color: #EFF7FF;
+  border-bottom: 3px solid #61AFFE;
+}
+
+.colorPutMethod {
+  background-color: #FEF5ED;
+  border-bottom: 3px solid #F8A130;
+}
+
+.colorDeleteMethod {
+  background-color: #FDEEED;
+  border-bottom: 3px solid #F53E3F;
 }
 
 @media (prefers-color-scheme: dark) {
