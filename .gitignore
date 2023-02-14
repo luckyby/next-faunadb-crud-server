@@ -37,7 +37,7 @@ next-env.d.ts
 
 #folders
 .idea
-src_trying/
+src_trying/**/*
 
 #files
 package-lock.json
