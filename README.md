@@ -14,7 +14,7 @@ By framework, we mean Next.js handles the tooling and configuration needed for R
 This server allows you to use the fauna db to test the interaction
 between your application and some database with the CRUD API
 
-### API CRUD server has the next endpoints:
+### API CRUD server has the next endpoints: 
 
 | Method  |  Endpoint   |    Description | request with:                                                                                                                                                                                                                                   |
 |:--------|-----|-----|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
