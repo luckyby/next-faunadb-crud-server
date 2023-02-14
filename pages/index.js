@@ -4,10 +4,12 @@ import styles from '../styles/Home.module.css'
   return (
     <>
       <div className={styles.main}>
-          <h1>Welcome to Fauna db server based on Next.js!</h1><br/>
+          <h1>Welcome to db server based on fauna db and  Next.js!</h1><br/>
           {/*<h3>Database &quot;users.db&quot; has table &quot;person&quot; that contains informaition in the following form:</h3>*/}
           {/*<Image src={tablePic}  alt="sqlite3 data example" priority="true"  />*/}
-          <h2>CRUD server has the next endpoints:</h2>
+        <h4>This server allows you to use the fauna db to test the interaction <br/>between your application and some database with the CRUD API
+        </h4>
+          <h2>API CRUD server has the next endpoints:</h2>
         <table className={styles.table}>
           <thead >
             <tr style={{backgroundColor: "ghostWhite"}} >
